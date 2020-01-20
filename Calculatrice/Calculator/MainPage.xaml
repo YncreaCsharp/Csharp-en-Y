@@ -8,11 +8,11 @@
     mc:Ignorable="d">
 
 	<Grid BorderThickness="20,20,20,20">
-		<Button x:Name="Enter" Content="=" Margin="530,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
-		<Button x:Name="Addition" Content="+" Margin="530,0,0,190" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
-		<Button x:Name="Substraction" Content="-" Margin="530,0,0,295" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
-		<Button x:Name="Multiplication" Content="*" Margin="530,0,0,400" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
-		<Button x:Name="Division" Content="/" Margin="530,0,0,505" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
+		<Button x:Name="Enter" Content="=" Margin="530,0,0,85" VerticalAlignment="Bottom" Click="Enter_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
+		<Button x:Name="Addition" Content="+" Margin="530,0,0,190" VerticalAlignment="Bottom" Click="Operator_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
+		<Button x:Name="Substraction" Content="-" Margin="530,0,0,295" VerticalAlignment="Bottom" Click="Operator_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
+		<Button x:Name="Multiplication" Content="*" Margin="530,0,0,400" VerticalAlignment="Bottom" Click="Operator_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
+		<Button x:Name="Division" Content="/" Margin="530,0,0,505" VerticalAlignment="Bottom" Click="Operator_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Dot" Content="." Margin="379,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Negate" Content="+/-" Margin="169,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_0" Content="0" Margin="274,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>

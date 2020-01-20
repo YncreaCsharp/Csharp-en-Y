@@ -27,7 +27,6 @@ namespace Calculator
         String operationPerformed = "";
         bool isOperationPerformed = false;
 
-
         public MainPage()
         {
             this.InitializeComponent();
@@ -96,5 +95,5 @@ namespace Calculator
     }
 
 
-    }
+}
 
