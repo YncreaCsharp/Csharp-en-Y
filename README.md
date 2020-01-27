@@ -10,8 +10,8 @@ Group :
 ------------------------- 
 
 In this repo you will found :  
-* A windows like calculator project.
-* A C# tutorial course.
-* A github use tutorial.
+* A windows like calculator project.(Master Branch)
+* A C# tutorial course. (TUTO_C# Branch)
+* A github use tutorial. (TUTO_GIT Branch)
 
 -------------------------
