@@ -14,7 +14,7 @@
 		<Button x:Name="Multiplication" Content="*" Margin="530,0,0,400" VerticalAlignment="Bottom" Click="Operator_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Division" Content="/" Margin="530,0,0,505" VerticalAlignment="Bottom" Click="Operator_click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Dot" Content="." Margin="379,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
-		<Button x:Name="Negate" Content="+/-" Margin="169,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
+		<Button x:Name="Reset" Content="C" Margin="169,0,0,85" VerticalAlignment="Bottom" Click="ResetEverything" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_0" Content="0" Margin="274,0,0,85" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_1" Content="1" Margin="169,0,0,190" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_2" Content="2" Margin="274,0,0,190" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
@@ -26,6 +26,7 @@
 		<Button x:Name="Button_7" Content="8" Margin="169,0,0,400" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_9" Content="9" Margin="379,0,0,400" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<TextBox x:Name="Result" HorizontalAlignment="Left" Margin="189,138,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="268"/>
+		<TextBox x:Name="Result2" HorizontalAlignment="Left" Margin="189,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="268" Foreground="#FF00F000" Background="#00BD0101" BorderBrush="#00FF05D1" FocusVisualPrimaryBrush="#00F00505" FocusVisualSecondaryBrush="#9976AA06" />
 
 
 	</Grid>
