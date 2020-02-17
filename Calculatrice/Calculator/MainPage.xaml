@@ -25,8 +25,8 @@
 		<Button x:Name="Button_8" Content="7" Margin="274,0,0,400" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_7" Content="8" Margin="169,0,0,400" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
 		<Button x:Name="Button_9" Content="9" Margin="379,0,0,400" VerticalAlignment="Bottom" Click="Button_Click" Width="100" Height="100" RenderTransformOrigin="2.724,0.779"/>
-		<TextBox x:Name="Result" HorizontalAlignment="Left" Margin="189,138,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="268"/>
-		<TextBox x:Name="Result2" HorizontalAlignment="Left" Margin="314,73,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="185" Foreground="#FF00F000" Background="#00BD0101" BorderBrush="#00FF05D1" FocusVisualPrimaryBrush="#00F00505" FocusVisualSecondaryBrush="#0076AA06" />
+		<TextBox x:Name="Result" HorizontalAlignment="Left" Margin="169,0,0,575" Text="0" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="108" Width="330" RenderTransformOrigin="2.724,0.779"/>
+		<TextBox x:Name="Result2" HorizontalAlignment="Left" Margin="314,0,0,708" Text="" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="42" Width="185" RenderTransformOrigin="2.724,0.779" Foreground="#FF00F000" Background="#00BD0101" BorderBrush="#00FF05D1" FocusVisualPrimaryBrush="#00F00505" FocusVisualSecondaryBrush="#0076AA06" />
 
 
 	</Grid>

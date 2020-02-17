@@ -22,7 +22,7 @@ namespace Calculator
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        Random rnd = new Random();
+        
 
         Double resultValue = 0;
         String operationPerformed = "";
@@ -42,7 +42,7 @@ namespace Calculator
             if (isEqualPressed)
             {
 
-                //reset everything ( if we have a result and we press a new nummber, no operation)
+                //reset everything ( if we have a result and we press a new number, no operation)
                 resultValue = 0;
                 operationPerformed = "";
                 isOperationPerformed = false;
